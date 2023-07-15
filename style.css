@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+#app {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+svg {
+	background-color: '#66c2a5';
+}
+
+svg #ring {
+	background-color: rgb(109, 110, 111);
+}
+
+svg #servers circle {
+	background-color: brown;
+}
